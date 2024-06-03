@@ -7,16 +7,13 @@ import { Container, Image, Spinner, Row } from 'react-bootstrap';
 import PokemonComponent from './pokemon';
 import PokeNavBar from '@/components/pokeNavBarComp';
 
-
 // This type is used to get the pokemon id from the url path
 type Params = {
    params: { pokemon_id: string }
 }
 
-
 // Next.js passes the url parts which are defined between square brackets []
 // to the function which renders the page.
-
 
 // In our case http://localhost:3000/pokemon/2 is the URL.
 // Where the 2 is the [pokemon_id] and passed as a parameter.
